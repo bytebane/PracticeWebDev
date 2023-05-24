@@ -1,0 +1,74 @@
+*{
+    font-family: "Poppins", serif;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 18px;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+body{
+    background: #1a1b26;
+    color: #bfc9f3;
+}
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+    padding-left: 30px;
+}
+
+#nav{
+    display: flex;
+    position: sticky;
+    padding: 12px 50px;
+    top: 0;
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#nav a{
+    font-size: 2.1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secOne{
+    width: 100%;
+}
+.catalog{
+    width: 50%;
+    margin-top: 20px;
+    border: 2px rgba(0, 0, 0, 0.45) solid;
+    border-radius: 10px;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.23);
+}
+.catalog:hover{
+    width: 60%;
+    padding-bottom: 35px;
+}
+.catalog li{
+    margin-top: 15px;
+}
+.catalog ul{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: circle;
+    text-decoration: none;
+}
+.noDecor{
+    text-decoration: none;
+    color: #bfc9f3;
+}
+
+li> .noDecor:hover{
+    font-size: 1.5rem;
+}
